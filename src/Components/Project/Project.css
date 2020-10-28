@@ -1,0 +1,47 @@
+.project-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.movieandchill{
+    margin: 0 10px 10px 0;
+}
+.movieandchill-imgs{
+    width: 700px;
+    height: 500px;
+}
+.project h1{
+    text-align: center;
+}
+.project h1{
+    border-bottom: 2px solid blue;
+}
+ .p-project{
+    text-align: center;
+}
+
+
+@media (max-width: 800px){
+    .movieandchill-imgs{
+        width: 600px;
+        height: 400px;
+    }
+}
+@media (max-width: 620px){
+    .movieandchill-imgs{
+        width: 500px;
+        height: 300px;
+    }
+}
+@media (max-width: 520px){
+    .movieandchill-imgs{
+        width: 400px;
+        height: 300px;
+    }
+}
+@media (max-width: 420px){
+    .movieandchill-imgs{
+        width: 300px;
+        height: 200px;
+    }
+}

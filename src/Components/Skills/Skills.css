@@ -1,0 +1,36 @@
+.skills-container {
+    text-align: center;
+    justify-content: center;
+    background-image: url(water.jpg);
+    background-size: 100%;
+}
+.title-skills {
+    border-bottom: 2px solid white;
+    background-color: rgb(24,33,83);
+    color: white;
+    align-self: center;
+}
+.skills-boxes {
+    text-align: center;
+}
+.skills {
+    display: flex;
+    width: 50%;
+    justify-content: space-around;
+    margin: auto;
+}
+.desc-skills {
+    width: 40%;
+    text-align: center;
+    height: 80px;
+    color: white;
+    margin: 10px;
+    background-color: rgba(255, 255, 255, 0.15);
+}
+
+
+@media (max-width: 800px){
+    .skills {
+        width: auto;
+    }
+ }
